@@ -1,24 +1,20 @@
 {
-  "publisher": "antfu",
-  "name": "ext-name",
-  "displayName": "ext-name",
+  "publisher": "Borrus-sudo",
+  "name": "Scutum",
+  "displayName": "Scutum",
   "version": "0.0.0",
   "private": true,
   "packageManager": "pnpm@9.7.1",
   "description": "",
-  "author": "Anthony Fu <anthonyfu117@hotmail.com>",
+  "author": "Borrus-sudo",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antfu",
-  "homepage": "https://github.com/antfu/ext-name#readme",
+  "homepage": "https://github.com/Borrus-sudo/Scutum#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/antfu/ext-name"
+    "url": "https://github.com/Borrus-sudo/Scutum"
   },
   "bugs": {
-    "url": "https://github.com/antfu/ext-name/issues"
-  },
-  "sponsor": {
-    "url": "https://github.com/sponsors/antfu"
+    "url": "https://github.com/Borrus-sudo/Scutum/issues"
   },
   "categories": [
     "Other"
@@ -40,7 +36,7 @@
     "commands": [],
     "configuration": {
       "type": "object",
-      "title": "ext-name",
+      "title": "Scutum",
       "properties": {}
     }
   },
@@ -49,7 +45,6 @@
     "dev": "nr build --watch",
     "prepare": "nr update",
     "update": "vscode-ext-gen --output src/generated/meta.ts",
-    "lint": "eslint .",
     "vscode:prepublish": "nr build",
     "publish": "vsce publish --no-dependencies",
     "pack": "vsce package --no-dependencies",
@@ -64,7 +59,6 @@
     "@types/vscode": "^1.92.0",
     "@vscode/vsce": "^2.32.0",
     "bumpp": "^9.5.1",
-    "eslint": "^9.9.0",
     "esno": "^4.7.0",
     "pnpm": "^9.7.1",
     "reactive-vscode": "0.2.0-beta.9",
